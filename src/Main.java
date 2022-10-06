@@ -1,3 +1,10 @@
+/**
+ * CSC3465(Software Design) - Debugging Lab 
+ * --> "Practicing Debugging with Pig!"
+ * 
+ * @revised by Xu Yan (Brandon)
+ *
+ */
 
 public class Main {
 
