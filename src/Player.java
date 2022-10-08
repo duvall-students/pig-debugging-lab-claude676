@@ -1,3 +1,10 @@
+/**
+ * CSC3465(Software Design) - Debugging Lab 
+ * --> "Practicing Debugging with Pig!"
+ * 
+ * @revised by Xu Yan (Brandon)
+ *
+ */
 
 public abstract class Player {
 
@@ -30,5 +37,10 @@ public abstract class Player {
 	
 	public String getName(){
 		return myName;
+	}
+	
+	// add new code; use this method to get the score
+	public int getScore(){
+		return myScore;
 	}
 }

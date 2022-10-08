@@ -1,3 +1,11 @@
+/**
+ * CSC3465(Software Design) - Debugging Lab 
+ * --> "Practicing Debugging with Pig!"
+ * 
+ * @revised by Xu Yan (Brandon)
+ *
+ */
+
 import java.util.Random;
 
 public class Spinner {
@@ -21,7 +29,14 @@ public class Spinner {
 	 * based on the given probabilities.
 	 */
 	public String numToWord(double spinNumber){	
-		int index = 1;
+		/* 
+		 * [*** Bug Fixes 2. ***]
+		 * 
+		 * this error is caused by starting the index from 1 so it leads the last index to be 4,
+		 * which is out of the bounds of the "probabilities" array
+		 * */
+//		int index = 1;
+		int index = 0;
 		double low = 0;
 		boolean done = false;
 		String result = "";
